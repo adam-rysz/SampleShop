@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Webinar 13 Suite" verbose="1" >
+    <test name="Test all TCs" >
+        <parameter name="name" value="Zenon"></parameter>
+        <classes>
+            <!--            <class name="webinars.ArtCategoryTests.DisplayTest" />-->
+            <!--            <class name="webinars.ArtCategoryTests.SearchTest" />-->
+            <class name="webinars.webinars.screenshot_util.TakeScreenshotExample"></class>
+        </classes>
+    </test>
+
+</suite>
